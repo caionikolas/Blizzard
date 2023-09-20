@@ -1,31 +1,54 @@
-# Blizzard
+<h1 align="center">
+  <img src=".github/logo.png" height="60px" />
+</h1>
 
-O tema é uma landing page da empresa blizzard, nessa página o dev deverá construir um menu de navegação, a seção banner hero com a funcionalidade de alterar o jogo destaque(Diablo, HearthStone e World of Warcraft), a listagem dos principais jogos da empresa e um rodapé contendo informações sobre o download do app battle.net.
+<p align="center">
+  <img src=".github/preview.png" width="100%" />
+</p>
 
-Você pode usar qualquer ferramenta(linguagem de programação, stack, lib) para ajudá-lo a completar o desafio, não será avaliado o código, mas sim a fidelidade ao layout e a implementação das funcionalidades solicitadas. Então, se você tem algo que gostaria de praticar, sinta-se à vontade.
+## 💻 Projeto
 
-Para deixar o desafio mais justo o layout e os requisitos foram separados em três níveis de dificuldade(fácil, médio e difícil). Ao selecionar uma dificuldade você deverá considerar a implementação dos requisitos das dificuldades anteriores, ou seja, se optar pela dificuldade média, deverá levar em conta todos os requisitos da dificuldade fácil e caso prefira a dificuldade difícil, deverá levar em conta todos os requisitos da dificuldade fácil e médio.
+Esse projeto é uma landing page da empresa **Blizzard**, ela é composta por um menu de navegação, um banner hero com as informações dos principais jogos da empresa(Diablo, HearthStone e World of Warcraft), a listagem dos jogos exclusivos e um rodapé com informações do download do app battle.net.
 
-Agora veja os requisitos de cada dificuldade:
+Para facilitar a codificação do projeto foi usado um protótipo do figma como base, o autor do layout é o design [**Gilberto Prado**](https://www.linkedin.com/in/gilberto-insanydesign/), [clique aqui](https://www.brchallenges.com/desafio/blizzard) para saber mais detalhes do desafio.
 
-Nível Fácil:
+## 🚀 Tecnologias
 
-Criar as seções: Menu, Banner hero, Footer.
-O texto e o ícone do botão “Baixar jogo” devem ser alterados conforme o sistema operacional do usuário que estiver acessando a página.
-Aplicar efeito de hover nas opções do menu de navegação.
-Aplicar responsividade para as seguintes resoluções: 1920px, 1440px, 768px e 375px.
+- [Item 1](http://localhost:3000/)
+- [Item 2](http://localhost:3000/)
+- [Item 3](http://localhost:3000/)
 
-Nível Médio:
+## 📝 Requisitos do desafio
 
-Todos os requisitos do nivel fácil.
-Criar as seções: Menu, Banner hero, Jogos Exclusivo, Footer.
-Buscar a lista de jogos via api.
-Aplicar efeito de hover nas imagens dos jogos da seção Jogos Exclusivos.
-Alterar as informações da seção Banner Hero ao selecionar uma opção no menu lateral. Os jogos disponíveis são Diablo, HearthStone e World of Warcraft.
+### Nível Fácil
 
-Nível Difícil
+- [ ]  Criar as seções: **Menu**, **Banner hero**, **Footer**.
 
-Todos os requisitos do nivel fácil e médio.
-Ao clicar no botão Logar do menu de navegação, deverá ser exibido o modal de login.
-Criar componente de dropdown para as opções Jogos e Esportes do menu de navegação.
-Deverá ser executado um gif do jogo quando ocorrer o evento de hover ou click na capa do trailer.
+- [ ]  O texto e o ícone do botão “Baixar jogo” devem ser alterados conforme o sistema operacional do usuário que estiver acessando a página. ( [material de apoio](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent))
+
+- [ ]  Aplicar efeito de *hover* nas opções do menu de navegação.
+
+- [ ]  Aplicar responsividade para as seguintes resoluções: 1920px, 1440px, 768px e 375px.
+
+### Nível Médio
+### 
+
+- [ ]  Todos os requisitos do nivel fácil.
+
+- [ ]  Criar as seções: **Menu**, **Banner hero**, **Jogos Exclusivo**, **Footer**.
+
+- [ ]  Buscar a lista de jogos via api. ([acessar endpoint](https://api-brchallenges.vercel.app/api/blizzard/games))
+
+- [ ]  Aplicar efeito de hover nas imagens dos jogos da seção **Jogos Exclusivos**.
+
+- [ ]  Alterar as informações da seção **Banner Hero** ao selecionar uma opção no menu lateral. Os jogos disponíveis são **Diablo**, **HearthStone** e **World of Warcraft**.
+
+### Nível Difícil
+
+- [ ]  Todos os requisitos do nivel fácil e médio.
+
+- [ ]  Ao clicar no botão **Logar** do menu de navegação, deverá ser exibido o modal de login.
+
+- [ ]  Criar componente de *dropdown* para as opções **Jogos** e **Esportes** do menu de navegação.
+
+- [ ]  Deverá ser executado um *gif* do jogo quando ocorrer o evento de *hover* na capa do trailer
