@@ -4,8 +4,7 @@ import Menu from "./../assets/imagens/menu.svg"
 
 export default function Header() {
     return (
-        <div className='bg-gray-800 p-6 flex items-center justify-between
-                        '>
+        <div className='bg-transparent p-6 flex items-center justify-between'>
             <Image
                 src={BlizzardLogo} 
                 alt='Logo da Blizzard'

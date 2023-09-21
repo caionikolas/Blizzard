@@ -19,7 +19,7 @@ export default function List(){
                     </p> 
                 </div>
             </div>
-            <div className="flex flex-wrap gap-4 ">
+            <div className="flex flex-wrap gap-4">
                 {games.map((game) => (
                     <Image
                         src={game.image}

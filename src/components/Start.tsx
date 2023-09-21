@@ -1,9 +1,10 @@
+/* eslint-disable react/jsx-key */
 import Image from 'next/image'
 import { icons } from '@/api/icons'
 
 export default function Start(){
     return (
-        <div className='pt-[3.19rem] pr-[3.06rem] pb-[4.25rem] pl-[1.38rem] bg-gray-700
+        <div className='pt-[3.19rem] pr-[3.06rem] pb-[4.25rem] pl-[1.38rem] bg-transparent
                         md:pl-[3.63rem] md:pt-[5.88rem] md:pr-[1.94rem] md:pb-[4.44rem]'>
             <h1 className='text-white text-[2.5rem] not-italic font-bold leading-[110.2%] w-[17.68rem] pr-[1.3rem] pb-4
                            md:text-[3.5rem] md:w-[35.12rem]'>Retorne à escuridão com o game Diablo IV</h1>
@@ -13,7 +14,6 @@ export default function Start(){
             <div className='flex items-center gap-4'>
                 {icons.map((icon) => (
                     <Image
-                        key={icon.image}
                         src={icon.image}
                         alt={icon.name}
                         width={48}

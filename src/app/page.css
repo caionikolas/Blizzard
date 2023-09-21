@@ -1,0 +1,12 @@
+#bg{
+    background-image: url(./../assets/imagens/diablo-bg.png);
+    background-size: cover;
+    background-position: -20rem;
+}
+
+@media (min-width: 768px){
+    #bg{
+        background-size: cover;
+        background-position: -15.5rem;
+    }
+}
