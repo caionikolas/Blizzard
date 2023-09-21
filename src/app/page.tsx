@@ -1,9 +1,22 @@
-import Image from 'next/image'
+import Start from '@/components/Start'
+import Header from '@/components/Header'
+import List from '@/components/List'
+import Download from '@/components/Download'
 
 export default function Home() {
   return (
-    <div className='bg-gray-800'>
-      <h1 className='text-gray-200'>Ola Mundo</h1>
+    <div className='w-96 mx-auto
+                    md:w-[48rem]
+                    lg:bg-green-600 
+                    xl:bg-sky-500'>
+      <div className='bg-Diablo-4-banner'>
+        <Header/>
+        <Start/>
+      </div>
+      <div>
+        <List/>
+        <Download/>
+      </div>
     </div>
   )
 }
