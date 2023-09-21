@@ -10,7 +10,12 @@ import Heroes from "./../assets/imagens/heroes.png"
 import Starcraft from "./../assets/imagens/starcraft.png"
 import Diablo3 from "./../assets/imagens/diablo-3.png"
 
-export const games = [
+type Games = {
+    name: string,
+    image: any
+}
+
+export const games: Games[] = [
     {
         name: "Diablo 2",
         image: Diablo2

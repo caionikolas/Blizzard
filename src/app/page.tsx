@@ -5,11 +5,11 @@ import Download from '@/components/Download'
 
 export default function Home() {
   return (
-    <div className='w-96 mx-auto
+    <div className='w-96 mx-auto bg-sky-500
                     md:w-[48rem]
                     lg:bg-green-600 
                     xl:bg-sky-500'>
-      <div className='bg-Diablo-4-banner'>
+      <div>
         <Header/>
         <Start/>
       </div>

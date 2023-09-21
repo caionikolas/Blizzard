@@ -10,9 +10,10 @@ export default function Start(){
             <h3 className='text-white text-lg not-italic font-normal tracking-[-0.00563rem] w-[17.68rem] pb-8
                         '>O retorno de Lilith traz uma era de escuridão e sofrimento</h3>
             <button className='flex py-[0.875rem] px-8 justify-center items-center gap-2 rounded-[0.25rem] bg-sky-500 text-white mb-12'>Jogue agora</button>
-            <div className='flex items-center gap-4 '>
+            <div className='flex items-center gap-4'>
                 {icons.map((icon) => (
                     <Image
+                        key={icon.image}
                         src={icon.image}
                         alt={icon.name}
                         width={48}
