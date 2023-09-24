@@ -3,6 +3,7 @@ import Start from '@/components/Start'
 import Header from '@/components/Header'
 import List from '@/components/List'
 import Download from '@/components/Download'
+import Interface from '@/components/Interface'
 
 export default function Home() {
   return (
@@ -10,14 +11,17 @@ export default function Home() {
                     md:w-[48rem] 
                     lg:bg-green-600 
                     xl:bg-sky-500'>
-      <div id='bg'>
+      <div className='bg-start'>
         <Header/>
         <Start/>
       </div>
-      <div>
-        <List/>
-        <Download/>
+      <List/>
+      <div className="pai-bg-lumens">
+        <div className='bg-lumens'>
+          <Download/>
+        </div>
       </div>
+      <Interface/>
     </div>
   )
 }

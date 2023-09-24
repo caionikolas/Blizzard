@@ -1,12 +1,26 @@
-#bg{
+.bg-start{
     background-image: url(./../assets/imagens/diablo-bg.png);
     background-size: cover;
     background-position: -20rem;
 }
 
+.pai-bg-lumens{
+    background-image: url(./../assets/imagens/bg-lumens.png);
+    background-size: cover;
+}
+
+.bg-lumens{
+    background-size: cover;
+    background: linear-gradient(270deg, #00000062 25.36%, rgb(0, 0, 0) 82.97%);
+}
+
 @media (min-width: 768px){
-    #bg{
-        background-size: cover;
+    .bg-start{
+        background-size: auto;
         background-position: -15.5rem;
+    }
+
+    .bg-lumens{
+        background-size: cover;
     }
 }

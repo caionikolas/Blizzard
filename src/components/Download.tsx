@@ -9,7 +9,7 @@ import AplicativoMovel from "./../assets/imagens/aplicativo-movel-icon.svg"
 
 export default function Download(){
     return (
-        <div className="pl-6 pt-16 pr-12 pb-12 bg-slate-800">
+        <div className="pl-6 pt-16 pr-12 pb-12 bg-transparent">
             <Image
                 src={BattleNetLogo}
                 alt='Battle net Logo'
@@ -28,16 +28,16 @@ export default function Download(){
                     src={group2}
                     alt='Battle net Logo'
                 />
-                <p className="text-slate-300" >Seus jogos em um só lugar</p>
+                <p className="text-slate-300" >Conecte-se aos seus amigos</p>
             </div>
             <div className="flex item-center py-6 gap-4">
                 <Image
                     src={group3}
                     alt='Battle net Logo'
                 />
-                <p className="text-slate-300">Seus jogos em um só lugar</p>
+                <p className="text-slate-300">Compre jogos e itens digitais</p>
             </div>
-            <button className="flex items-center py-[0.875rem] px-8 bg-sky-500 gap-2 rounded-[0.25rem] mb-10">
+            <button className="flex items-center py-[0.875rem] px-8 bg-sky-500 gap-2 rounded-[0.25rem] mb-10 mt-[1.12rem]">
                 <Image
                 src={IOS}
                 alt='Battle net Logo'
